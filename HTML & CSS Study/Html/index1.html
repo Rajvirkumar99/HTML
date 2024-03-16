@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Html Form Dummy</legend>
+      <form action="">
+        <label for="datetype">Chose Date</label>
+        <input type="date" id="datetype" />
+
+        <label for="Selector1">choose your Favourite Food</label>
+        <select name="Dishes" id="Selector1">
+          <option value="Maggi">Maggi</option>
+          <option value="kurkure">kurkure</option>
+          <option value="biscut">biscut</option>
+          <option value="colddrink">colddrink</option>
+          <hr />
+          <optgroup label="Vegetables">
+            <option value="artichoke">Artichokes</option>
+            <option value="broccoli">Broccoli</option>
+            <option value="cabbage">Cabbages</option>
+          </optgroup>
+        </select>
+        <br />
+        <br />
+        <button>Click</button>
+        <textarea
+          name="textArea"
+          id="textArea"
+          cols="30"
+          rows="10"
+          placeholder="enter text here"
+        >
+        </textarea>
+      </form>
+
+      <label for="avatar">Choose a profile picture:</label>
+
+      <input
+        type="file"
+        id="avatar"
+        name="avatar"
+        accept="image/png, image/jpeg"
+      />
+    </fieldset>
+  </body>
+</html>
