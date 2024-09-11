@@ -1,0 +1,553 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@500;0,600;0,700;0,800;0, &display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* /* .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0; /* Optional: Change the color when hovering */
+
+*/ .header {
+  height: 100vh;
+  width: 100%;
+}
+
+.panel {
+  background-color: rgb(54, 54, 54);
+}
+.navbar {
+  padding: 15px 18px !important;
+}
+
+.nav-item {
+  margin: 0px 18px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0; /* Optional: Change the color when hovering */
+}
+
+.nav-item .nav-link {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  background-color: rgb(255, 129, 57);
+  width: opx;
+  height: 3px;
+  transition: 0, 04 ease-in-out;
+}
+
+.nav-item:hover .nav-link::after {
+  width: 100px;
+}
+
+.nav-link:hover {
+  color: rgb(255, 129, 57);
+}
+
+.home-span {
+  color: rgb(222, 89, 12);
+}
+
+.home-links:hover {
+  color: rgb(222, 89, 12);
+}
+body {
+  background-color: #232323;
+  overflow-x: hidden;
+}
+
+.logo {
+  font-weight: 600;
+  color: rgb(255, 255, 255, 0.84) !important;
+}
+
+.btn-1 {
+  border: 1px solid rgb(36, 193, 255);
+  color: rgb(36, 193, 255);
+  background-color: transparent;
+}
+
+.primary-button {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 43px;
+  border: 1px solid rgb(36, 193, 255);
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: rgb(36, 193, 255);
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: transparent;
+  color: rgb(222, 89, 12); /* Change the text color on hover */
+  border-color: rgb(222, 89, 12); /* Optional: change the border color */
+}
+
+/* home section  */
+.content-home2 {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-container2 {
+  max-width: 500px; /* Adjust this to fit text and buttons */
+}
+
+.home-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+.para-home {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.42);
+  line-height: 24px;
+  margin: 14px 0px;
+}
+
+.img-home {
+  width: 100%;
+  max-width: 880px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.btn-home a {
+  margin-right: 10px;
+  align-content: space-between;
+}
+
+/* About Us section */
+
+.about-us-container {
+  background-color: red;
+  height: 72vh;
+  width: 100%;
+  margin-bottom: 72px;
+}
+
+.about-us {
+  width: 100%;
+  height: 320px;
+  background-color: rgb(54, 54, 54);
+  margin-top: 140px;
+  position: relative;
+}
+
+.content-about {
+  padding: 10px 38px;
+}
+
+.heading-about {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(255, 129, 57);
+  margin: 10px 0px;
+  margin-bottom: 34px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.heading-about::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -8px;
+  background-color: rgb(255, 129, 57);
+  width: 46px;
+  height: 2px;
+}
+
+/* Paragraph left margin */
+.para-about {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(255, 255, 255, 0.695);
+  line-height: 21px;
+  margin: 25px 0px 25px 25px; /* Left margin set to 10px */
+}
+
+.link-about {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 129, 57, 0.5);
+  color: rgb(255, 129, 57);
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 8px 22px;
+  overflow: hidden;
+  margin-left: 25px;
+  transition: color 0.4s ease; /* Transition for text color */
+}
+
+.link-about {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 129, 57, 0.5);
+  color: rgb(255, 129, 57);
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 8px 22px;
+  overflow: hidden;
+  margin-left: 25px;
+  z-index: 1; /* Ensure text is above the span */
+  transition: color 0.4s ease; /* Smooth transition for text color */
+}
+
+.link-about .span-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 129, 57);
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: width 0.4s ease; /* Smooth transition for background */
+}
+
+/* Hover effect for background expansion from left to right */
+.link-about:hover .span-about {
+  width: 100%; /* Expands the background from left to right */
+}
+
+.link-about:hover {
+  color: white; /* Text color changes to white on hover */
+}
+
+.fa-arrow-right {
+  color: rgb(255, 129, 57);
+  font-size: 11px;
+  margin-left: 5px;
+}
+
+.fa-arrow-right:hover {
+  color: white;
+}
+
+.image-about {
+  height: 420px;
+  width: 50%;
+  position: absolute;
+  top: -36px;
+  right: 20px;
+}
+
+/* Crousal section   */
+
+.product-category {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+}
+
+.heading-product {
+  font-size: 34px;
+  color: rgb(255, 129, 57);
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.heading-product::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -8px;
+  background-color: rgb(222, 89, 12);
+  width: 56px;
+  height: 2px;
+}
+
+.card-product {
+  padding: 14px 10px;
+  background-color: #232323 !important;
+}
+
+.img-card {
+  height: 190px !important;
+}
+
+.card-title {
+  font-size: 14px;
+  color: rgb(255, 129, 57);
+  border-bottom: 1px solid rgb(255, 129, 57);
+  padding: 5px 0px;
+  margin: 10px 0px;
+  margin-bottom: 20px !important ;
+}
+
+.card-text {
+  color: rgb(245, 241, 241);
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.btn-product-cat {
+  color: rgb(222, 89, 12);
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.btn-product-cat:hover {
+  color: rgb(250, 183, 144);
+}
+
+/* Crousal end   */
+
+/* Sectrion Testimonial   */
+
+.testimonial {
+  width: 100%;
+  padding: 20px;
+  margin-top: 60px;
+  background-color: #333; /* Example background color */
+}
+
+.heading-testimonial {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: rgba(222, 255, 255, 0.884);
+  margin-bottom: 35px;
+}
+
+.heading-testimonial .styling {
+  color: rgb(255, 129, 57);
+}
+
+.para-testimonial {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+  max-width: 700px;
+  margin: 12px auto;
+}
+
+.container-clients {
+  margin: 50px 0;
+}
+
+.container-content {
+  width: 100%; /* Full width within column */
+  background-image: linear-gradient(
+    145deg,
+    rgb(70, 136, 228) 0%,
+    rgb(180, 126, 133) 100%
+  );
+  margin: auto;
+  padding: 30px 30px 30px 160px; /* Left padding for image */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative; /* For absolute positioning of image */
+  text-align: left;
+  color: white;
+}
+
+.img-client {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust to place in left corner */
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden; /* Ensures image stays within circle */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.image-client {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers container */
+  border-radius: 50%;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 12px 0;
+  list-style: none; /* Remove default list styling */
+}
+
+.rating .stars {
+  font-size: 14px;
+  margin: 0 2px;
+  color: gold; /* Star color */
+}
+
+.client-name {
+  font-size: 25px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.para-client {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 26px 0 15px;
+  color: white;
+  text-align: center;
+}
+
+.profession {
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* Form  */
+
+/* Contact form section container */
+.contact-from {
+  width: 100%;
+  height: 100vh;
+  margin-top: -39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Contact form heading */
+.heading-contcat {
+  font-size: 34px;
+  color: rgb(222, 89, 12);
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.heading-contcat::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  background-color: rgb(255, 129, 57);
+  width: 56px;
+  height: 2px;
+}
+
+/* Form container styling */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch; /* Ensures both form and image take equal height */
+}
+
+.contact-form {
+  padding: 20px;
+}
+
+.heading-contact {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-origin {
+  background-color: #2e2c2c;
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%; /* Make sure the form takes full height */
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #777;
+}
+
+.btn-contact {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  background-color: #0056b3;
+}
+
+.card-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Make sure the card takes the full height */
+}
+
+.img-card {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; /* Ensures the image scales properly */
+}
+
+img {
+  width: 100%;
+  height: 100%; /* Adjust image to take the full height */
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .card-product {
+    margin-top: 20px;
+    height: auto; /* Ensure image resizes correctly on smaller screens */
+  }
+
+  img {
+    height: auto; /* Adjust image height to be responsive */
+  }
+}
